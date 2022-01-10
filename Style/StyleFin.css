@@ -1,0 +1,53 @@
+html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+width: 1024px;
+height: 720px;
+
+background: linear-gradient(0deg, rgba(0, 255, 41, 0.67), rgba(0, 255, 41, 0.67)), conic-gradient(from 180deg at 50% 50%, rgba(0, 0, 0, 0) 0deg, #000000 73deg, rgba(0, 0, 0, 0) 360deg);
+
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+.gracias{
+    position: absolute;
+    width: 516px;
+    height: 25px;
+    left: 60%;
+    top: 97px;
+}
+
+.puntos{
+    position: absolute;
+    width: 967px;
+    height: 400px;
+    left: 21px;
+    top: 225px;
+    
+    background: #000000;
+    border: 10px solid #FAFF12;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100%;
+    /* or 20px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FAFF12;
+
+}
+

@@ -1,0 +1,99 @@
+html body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+width: 1024px;
+height: 720px;
+
+background: conic-gradient(from 180deg at 50% 50%, rgba(15, 15, 15, 0) 0deg, #0F0F0F 88.12deg, rgba(15, 15, 15, 0) 360deg), conic-gradient(from 180deg at 50% 50%, rgba(30, 214, 49, 0) 0deg, #1ED631 305.62deg, rgba(30, 214, 49, 0) 360deg);
+font-family: 'Raleway', sans-serif;
+}
+
+
+#question{
+    width: 750.57px;
+    height: 22%;
+    left: 450px;
+    top: 150px;
+    
+    background: #000000;
+    border: 12px solid #E4F70A;
+    box-sizing: border-box;
+    border-radius: 130px 0px;
+    position: absolute;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 35px;
+    line-height: 167.19%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #1ED631;
+}
+
+.encabezado{
+    margin-right: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+#choices{
+    box-sizing: border-box;   
+    position: absolute;
+    width: 110%;
+    height: 50%;
+    left: 22%;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+}   
+
+
+.button{
+    padding: 1.5% 9%;
+    margin: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    background: #FAFF12;
+    border-radius: 30px;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    color:#FAFF12;
+    background: black;
+}
+.rendirse{
+    padding: 1.5% 9%;
+    margin: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    background: #ffffff;
+    border-radius: 30px;
+    color:rgb(204, 57, 57)
+
+}
+
+.rendirse:hover{
+    cursor: pointer;
+    color:white;
+    background: rgb(204, 57, 57)
+}
+
+#progress{
+    font-weight:bold;
+    font-size: 25px;
+    color: #FAFF12;
+    background: black;
+    border: 5px solid #E4F70A;
+    border-radius: 15px;
+}
